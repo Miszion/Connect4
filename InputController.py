@@ -21,7 +21,7 @@ class InputController:
     def getPlayAgain():
         playAgain = input(" Play again? (y/n): ")
 
-        if playAgain is "y":
+        if playAgain == "y":
             return True
         else:
             print("Goodbye!")
@@ -30,7 +30,7 @@ class InputController:
     @staticmethod
     def getGameFilled():
         playAgain = input("Tie Game!  Play again? (y/n): ")
-        if playAgain is "y":
+        if playAgain == "y":
             return True
         else:
             print("Goodbye!")
